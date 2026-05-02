@@ -1,0 +1,153 @@
+.floating-announcement {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  border-radius: 16px;
+  padding: 1rem;
+  width: 280px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  border: 2px solid rgba(255, 107, 53, 0.3);
+  z-index: 1000;
+}
+
+.close-floating {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #f0f0f0;
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #666;
+}
+
+.close-floating:hover {
+  background: #FF6B35;
+  color: white;
+  transform: rotate(90deg);
+}
+
+.floating-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.pulse-bell {
+  font-size: 1.3rem;
+  animation: bell-ring 2s infinite;
+}
+
+@keyframes bell-ring {
+  0%, 100% { transform: rotate(0); }
+  10% { transform: rotate(15deg); }
+  20% { transform: rotate(-15deg); }
+  30% { transform: rotate(10deg); }
+  40% { transform: rotate(-10deg); }
+  50% { transform: rotate(0); }
+}
+
+.new-badge {
+  background: linear-gradient(135deg, #FF6B35, #FF9F43);
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+}
+
+.floating-content {
+  margin-bottom: 0.8rem;
+}
+
+.floating-content h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 0.3rem 0;
+}
+
+.floating-content p {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.floating-content strong {
+  color: #FF6B35;
+  font-weight: 700;
+}
+
+.floating-cta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.floating-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+.floating-cta svg {
+  flex-shrink: 0;
+}
+
+/* Tablet */
+@media (max-width: 968px) {
+  .floating-announcement {
+    width: 260px;
+    bottom: 15px;
+    left: 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .floating-announcement {
+    width: calc(100% - 30px);
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .floating-content h4 {
+    font-size: 1.05rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 375px) {
+  .floating-announcement {
+    width: calc(100% - 24px);
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    padding: 0.8rem;
+  }
+
+  .pulse-bell {
+    font-size: 1.2rem;
+  }
+}

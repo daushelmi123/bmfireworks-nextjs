@@ -1,0 +1,238 @@
+.video-gallery {
+  padding: 50px 20px;
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.video-gallery h2 {
+  text-align: center;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+  font-weight: 800;
+  background: linear-gradient(135deg, #1a1a1a 0%, #00CED1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  color: #666;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.video-card {
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.video-card:hover {
+  box-shadow: 0 12px 35px rgba(0, 206, 209, 0.2);
+}
+
+.video-thumbnail {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  background: #000;
+}
+
+.video-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.video-card:hover .video-thumbnail img {
+  transform: scale(1.1);
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 206, 209, 0.85) 0%, rgba(32, 178, 170, 0.85) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.video-card:hover .video-overlay {
+  opacity: 1;
+}
+
+.play-button {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #00CED1;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  padding-left: 5px;
+}
+
+.video-info {
+  padding: 1rem;
+}
+
+.video-info h3 {
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.video-info p {
+  color: #666;
+  font-size: clamp(0.85rem, 1.5vw, 1rem);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Simple Modal Styles - Same as ProductCard */
+.video-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.video-modal-simple {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.video-modal-simple video {
+  display: block;
+  max-width: 90vw;
+  max-height: 85vh;
+  border-radius: 8px;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.close-modal-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+/* Tablet */
+@media (max-width: 968px) {
+  .video-gallery {
+    padding: 40px 15px;
+  }
+
+  .video-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.2rem;
+  }
+
+  .video-thumbnail {
+    height: 180px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .video-gallery {
+    padding: 35px 12px;
+  }
+
+  .section-subtitle {
+    margin-bottom: 1.5rem;
+  }
+
+  .video-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .video-thumbnail {
+    height: 200px;
+  }
+
+  .video-info {
+    padding: 1rem;
+  }
+
+  .play-button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+  }
+
+  .close-modal-btn {
+    top: 8px;
+    right: 8px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 375px) {
+  .video-gallery {
+    padding: 30px 10px;
+  }
+
+  .video-thumbnail {
+    height: 180px;
+  }
+
+  .video-info {
+    padding: 0.8rem;
+  }
+}

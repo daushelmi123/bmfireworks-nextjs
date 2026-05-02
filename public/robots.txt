@@ -1,0 +1,30 @@
+# robots.txt for BMFireworks Malaysia
+# https://bmfirework.com
+
+User-agent: *
+Allow: /
+Allow: /products
+Allow: /about
+Allow: /contact
+
+# Disallow cart/checkout for SEO (private pages)
+Disallow: /checkout
+
+# Sitemap location
+Sitemap: https://bmfirework.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandexbot
+Allow: /
