@@ -12,8 +12,8 @@ import './SuratLantikanForm.css';
  * Nama field JANGAN diubah — ikut schema zod backend.
  */
 
-// Senarai dokumen — SAMA untuk semua perayaan (surat lantikan guna slot nama perayaan)
-const TEMPLATES = [
+// Pakej PENUH — 18 dok: BMF + Amflex (surat lantikan guna slot nama perayaan)
+const TEMPLATES_FULL = [
   'bmfireworks-borang-ipd',
   'bmfireworks-surat-lantikan',
   'bmfireworks-borang-c',
@@ -32,6 +32,27 @@ const TEMPLATES = [
   'amflex-lampiran-a-1',
   'amflex-lampiran-a2',
   'amflex-lampiran-a3',
+];
+
+// Pakej OnlyBM — 17 dok: BM + GRK (TANPA Amflex) — sama macam flow /onlybm SPA lama
+const TEMPLATES_ONLYBM = [
+  'onlybm-borang-ipd',
+  'grk-lampiran-a',
+  'bmfireworks-lampiran-a-new',
+  'grk-surat-kebenaran',
+  'grk-surat-agen',
+  'grk-borang-e',
+  'grk-surat-kelulusan',
+  'grk-borang-a',
+  'bmfireworks-surat-lantikan',
+  'bmfireworks-borang-c',
+  'bmfireworks-borang-e',
+  'bmfireworks-lampiran-a',
+  'bmfireworks-surat-kdn',
+  'bmfireworks-borang-a',
+  'bmfireworks-borang-a-2',
+  'bmfireworks-lampiran-a-3',
+  'bmfireworks-lampiran-a-4',
 ];
 
 // Pilihan perayaan -> label utk tab (tanpa tahun), name utk dalam surat (dgn tahun)
@@ -100,7 +121,7 @@ function Field({ label, required, hint, error, children }) {
   );
 }
 
-export default function SuratLantikanForm() {
+export default function SuratLantikanForm({ variant = 'full' }) {
   const [f, setF] = useState(initialForm);
   const [errors, setErrors] = useState({});
   const [status, setStatus] = useState('idle'); // idle | sending | ok | err
@@ -226,7 +247,7 @@ export default function SuratLantikanForm() {
       applicationDate: f.applicationDate,
       festivalType: f.festivalType,
       festivalName: (FESTIVALS.find((x) => x.key === f.festivalType) || {}).name || '',
-      templates: TEMPLATES,
+      templates: variant === 'onlybm' ? TEMPLATES_ONLYBM : TEMPLATES_FULL,
     };
     try {
       const r = await fetch('/suratlantikan/hantar', {

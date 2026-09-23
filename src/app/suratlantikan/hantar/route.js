@@ -15,8 +15,9 @@ const MAX_BODY_BYTES = 16 * 1024; // 16 KB — cukup untuk payload borang
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX = 6; // 6 permohonan / 10 minit / IP
 
-// Template yang dibenarkan (BMF + Amflex; surat lantikan = slot nama perayaan)
+// Template yang dibenarkan (pakej penuh BMF+Amflex, dan pakej OnlyBM BM+GRK)
 const ALLOWED_TEMPLATES = new Set([
+  // Pakej penuh
   'bmfireworks-borang-ipd',
   'bmfireworks-surat-lantikan',
   'bmfireworks-borang-c',
@@ -35,6 +36,15 @@ const ALLOWED_TEMPLATES = new Set([
   'amflex-lampiran-a-1',
   'amflex-lampiran-a2',
   'amflex-lampiran-a3',
+  // Pakej OnlyBM (BM + GRK)
+  'onlybm-borang-ipd',
+  'grk-lampiran-a',
+  'bmfireworks-lampiran-a-new',
+  'grk-surat-kebenaran',
+  'grk-surat-agen',
+  'grk-borang-e',
+  'grk-surat-kelulusan',
+  'grk-borang-a',
 ]);
 
 // Perayaan yang dibenarkan
