@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Navbar from '@/components/Navbar/Navbar';
 import ProductCard from '@/components/ProductCard/ProductCard';
+import { productVideos } from '@/data/productVideos';
 import { products } from '@/data/products';
 import { categories } from '@/data/categories';
 import '../ProductsPage.css';
@@ -119,6 +120,7 @@ function ProductsContent() {
               <ProductCard
                 key={product.id}
                 product={product}
+                videoUrl={productVideos[product.id]}
               />
             ))}
           </div>

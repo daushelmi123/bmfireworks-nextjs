@@ -1,0 +1,253 @@
+/* Borang Surat Lantikan Ejen BMFireworks */
+
+.sl-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sl-section {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0;
+}
+
+.sl-section h2 {
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  color: #0a1128;
+  margin: 0;
+}
+
+.sl-section-note {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: -0.5rem 0 0;
+  line-height: 1.5;
+}
+
+.sl-field {
+  display: block;
+}
+
+.sl-label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.4rem;
+}
+
+.sl-req {
+  color: #dc2626;
+}
+
+.sl-input {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  font-size: 0.95rem;
+  color: #111827;
+  background: #f9fafb;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  font-family: inherit;
+}
+
+.sl-input:focus {
+  border-color: #00ced1;
+  box-shadow: 0 0 0 3px rgba(0, 206, 209, 0.15);
+  background: #ffffff;
+}
+
+.sl-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.sl-hint {
+  display: block;
+  font-size: 0.78rem;
+  color: #6b7280;
+  margin-top: 0.3rem;
+}
+
+.sl-error {
+  display: block;
+  font-size: 0.8rem;
+  color: #dc2626;
+  margin-top: 0.3rem;
+  font-weight: 500;
+}
+
+.sl-row {
+  display: grid;
+  gap: 1rem;
+}
+
+.sl-row-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.sl-row-phone {
+  grid-template-columns: 130px 1fr;
+}
+
+.sl-banner-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  font-size: 0.9rem;
+}
+
+.sl-banner-list {
+  margin: 0.5rem 0 0 1.25rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.sl-info {
+  background: #0a1128;
+  color: #e5e7eb;
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+.sl-info-title {
+  font-weight: 700;
+  color: #ffd700;
+  margin-bottom: 0.25rem;
+}
+
+.sl-actions {
+  text-align: center;
+}
+
+.sl-submit {
+  background: linear-gradient(135deg, #00ced1 0%, #00a5a8 100%);
+  color: #06202a;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  transition: filter 0.15s ease, transform 0.1s ease;
+  font-family: inherit;
+}
+
+.sl-submit:hover:not(:disabled) {
+  filter: brightness(1.08);
+}
+
+.sl-submit:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.sl-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.sl-actions-note {
+  font-size: 0.78rem;
+  color: #6b7280;
+  margin-top: 0.75rem;
+}
+
+/* Success */
+.sl-success {
+  background: #ffffff;
+  border: 1px solid rgba(0, 206, 209, 0.4);
+  border-radius: 16px;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.sl-success-icon {
+  font-size: 3rem;
+}
+
+.sl-success h2 {
+  color: #0a1128;
+  margin: 0;
+}
+
+.sl-success p {
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+.sl-success-warn {
+  color: #b45309 !important;
+  font-weight: 600;
+  font-size: 0.88rem !important;
+}
+
+.sl-btn {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  transition: filter 0.15s ease;
+}
+
+.sl-btn:hover {
+  filter: brightness(1.07);
+}
+
+.sl-btn-download {
+  background: linear-gradient(135deg, #00ced1 0%, #00a5a8 100%);
+  color: #06202a;
+}
+
+.sl-btn-wa {
+  background: #25d366;
+  color: #ffffff;
+}
+
+.sl-btn-reset {
+  background: transparent;
+  color: #6b7280;
+  text-decoration: underline;
+  font-weight: 500;
+  padding: 0.4rem;
+}
+
+@media (max-width: 640px) {
+  .sl-row-2,
+  .sl-row-phone {
+    grid-template-columns: 1fr;
+  }
+
+  .sl-section {
+    padding: 1.1rem;
+  }
+
+  .sl-submit {
+    width: 100%;
+    padding: 1rem 1.5rem;
+  }
+}

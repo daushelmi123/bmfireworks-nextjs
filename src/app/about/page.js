@@ -3,6 +3,7 @@ import About from '@/components/About/About';
 import '../AboutPage.css';
 
 export const metadata = {
+  alternates: { canonical: '/about' },
   title: 'About Us - BMFireworks',
   description: 'Learn about BMFireworks X Bearboom - Malaysia licensed fireworks distributor',
 };

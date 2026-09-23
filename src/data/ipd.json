@@ -1,0 +1,826 @@
+[
+  {
+    "id": "ipd-batu-pahat",
+    "name": "IPD Batu Pahat",
+    "address": "IPD, Batu Pahat, Johor",
+    "postcode": "83000",
+    "city": "Batu Pahat",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-iskandar-puteri",
+    "name": "IPD Iskandar Puteri",
+    "address": "IPD Iskandar Puteri, No.187, Jalan Bestari 2/5, Taman Nusa Bestari, Johor",
+    "postcode": "81300",
+    "city": "Skudai",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-johor-bahru-selatan",
+    "name": "IPD Johor Bahru (Selatan)",
+    "address": "IPD Johor Bahru (Selatan), JKR No.489, Jalan Meldrum, Johor",
+    "postcode": "80000",
+    "city": "Johor Bahru",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-johor-bahru-utara",
+    "name": "IPD Johor Bahru (Utara)",
+    "address": "IPD Johor Bahru Utara, Johor",
+    "postcode": "81300",
+    "city": "Skudai",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-kluang",
+    "name": "IPD Kluang",
+    "address": "IPD Kluang, Johor",
+    "postcode": "86000",
+    "city": "Kluang",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-kota-tinggi",
+    "name": "IPD Kota Tinggi",
+    "address": "IPD Kota Tinggi, Jalan Sg. Siput, Kota Kechil, Johor",
+    "postcode": "81900",
+    "city": "Kota Tinggi",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-kulai",
+    "name": "IPD Kulai",
+    "address": "IPD Kulai, Jalan Persiaran Indahpura 4, Johor",
+    "postcode": "81000",
+    "city": "Kulai",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-mersing",
+    "name": "IPD Mersing",
+    "address": "IPD Mersing, Jalan Sultanah, Johor",
+    "postcode": "86800",
+    "city": "Mersing",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-muar",
+    "name": "IPD Muar",
+    "address": "IPD Muar, Jalan Mariam, Johor",
+    "postcode": "84000",
+    "city": "Muar",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-pontian",
+    "name": "IPD Pontian",
+    "address": "IPD Pontian, Jalan Sekolah Arab, Johor",
+    "postcode": "82000",
+    "city": "Pontian",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-segamat",
+    "name": "IPD Segamat",
+    "address": "IPD Segamat, JKR 90, Jalan Ibrahim, Johor",
+    "postcode": "85000",
+    "city": "Segamat",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-seri-alam",
+    "name": "IPD Seri Alam",
+    "address": "IPD Seri Alam, No. 5, Jalan Lembah, Bandar Seri Alam, Johor",
+    "postcode": "81750",
+    "city": "Masai",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-tangkak",
+    "name": "IPD Tangkak",
+    "address": "IPD Tangkak, Jalan Paya Mas, Johor",
+    "postcode": "84900",
+    "city": "Tangkak",
+    "state": "Johor"
+  },
+  {
+    "id": "ipd-baling",
+    "name": "IPD Baling",
+    "address": "IPD Baling, Jalan Chanuk Nau, Kedah",
+    "postcode": "09100",
+    "city": "Baling",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-bandar-baru",
+    "name": "IPD Bandar Baru",
+    "address": "IPD Bandar Baru Jalan Selama, Kedah",
+    "postcode": "09800",
+    "city": "Serdang",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-kota-setar",
+    "name": "IPD Kota Setar",
+    "address": "IPD Kota Setar, Jalan Raja, Kedah",
+    "postcode": "05560",
+    "city": "Alor Setar",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-kuala-muda",
+    "name": "IPD Kuala Muda",
+    "address": "IPD Kuala Muda, Jalan Sungai Layar, Kedah",
+    "postcode": "08000",
+    "city": "Sungai Petani",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-kubang-pasu",
+    "name": "IPD Kubang Pasu",
+    "address": "IPD Kubang Pasu, Jalan Changlun, Kedah",
+    "postcode": "06000",
+    "city": "Jitra",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-kulim",
+    "name": "IPD Kulim",
+    "address": "IPD Kulim, Jalanraya Kulim, Kedah",
+    "postcode": "09000",
+    "city": "Kulim",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-langkawi",
+    "name": "IPD Langkawi",
+    "address": "IPD Langkawi, Jalan Air Hangat, Kedah",
+    "postcode": "07000",
+    "city": "Langkawi",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-padang-terap",
+    "name": "IPD Padang Terap",
+    "address": "IPD Padang Terap, Kedah",
+    "postcode": "06300",
+    "city": "Kuala Nerang",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-pendang",
+    "name": "IPD Pendang",
+    "address": "IPD Pendang, Jln Pekan Pendang, Kedah",
+    "postcode": "06700",
+    "city": "Pendang",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-sik",
+    "name": "IPD Sik",
+    "address": "IPD Sik, Jalan Balai Pekan Sik, Kedah",
+    "postcode": "08200",
+    "city": "Sik",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-yan",
+    "name": "IPD Yan",
+    "address": "IPD Yan, Kedah",
+    "postcode": "06900",
+    "city": "Yan",
+    "state": "Kedah"
+  },
+  {
+    "id": "ipd-bachok",
+    "name": "IPD Bachok",
+    "address": "IPD Bachok, Kelantan",
+    "postcode": "16300",
+    "city": "Bachok",
+    "state": "Kelantan"
+  },
+  {
+    "id": "ipd-gua-musang",
+    "name": "IPD Gua Musang",
+    "address": "IPD Gua Musang, Kelantan",
+    "postcode": "18300",
+    "city": "Gua Musang",
+    "state": "Kelantan"
+  },
+  {
+    "id": "ipd-jeli",
+    "name": "IPD Jeli",
+    "address": "IPD Jeli, Kelantan",
+    "postcode": "17600",
+    "city": "Jeli",
+    "state": "Kelantan"
+  },
+  {
+    "id": "ipd-kota-bahru",
+    "name": "IPD Kota Bahru",
+    "address": "IPD Kota Bahru, Jalan Padang Tembak, Pengkalan Chepa, Kelantan",
+    "postcode": "16100",
+    "city": "Kota Bahru",
+    "state": "Kelantan"
+  },
+  {
+    "id": "ipd-kuala-krai",
+    "name": "IPD Kuala Krai",
+    "address": ", Kelantan",
+    "postcode": "18000",
+    "city": "Kuala Krai",
+    "state": "Kelantan"
+  },
+  {
+    "id": "ipd-machang",
+    "name": "IPD Machang",
+    "address": "IPD Machang, Kelantan",
+    "postcode": "18500",
+    "city": "Machang",
+    "state": "Kelantan"
+  },
+  {
+    "id": "ipd-pasir-mas",
+    "name": "IPD Pasir Mas",
+    "address": "IPD Pasir Mas, Jalan Pasir Mas-Rantau Panjang, Kelantan",
+    "postcode": "17000",
+    "city": "Pasir Mas",
+    "state": "Kelantan"
+  },
+  {
+    "id": "ipd-pasir-puteh",
+    "name": "IPD Pasir Puteh",
+    "address": ", Kelantan",
+    "postcode": "16800",
+    "city": "Pasir Puteh",
+    "state": "Kelantan"
+  },
+  {
+    "id": "ipd-tanah-merah",
+    "name": "IPD Tanah Merah",
+    "address": "IPD Tanah Merah, Kelantan",
+    "postcode": "17500",
+    "city": "Tanah Merah",
+    "state": "Kelantan"
+  },
+  {
+    "id": "ipd-tumpat",
+    "name": "IPD Tumpat",
+    "address": "IPD Tumpat, Kelantan",
+    "postcode": "16200",
+    "city": "Tumpat",
+    "state": "Kelantan"
+  },
+  {
+    "id": "ipd-alor-gajah",
+    "name": "IPD Alor Gajah",
+    "address": "IPD Alor Gajah, Melaka",
+    "postcode": "78000",
+    "city": "Alor Gajah",
+    "state": "Melaka"
+  },
+  {
+    "id": "ipd-jasin",
+    "name": "IPD Jasin",
+    "address": "IPD Jasin, Melaka",
+    "postcode": "77000",
+    "city": "Jasin",
+    "state": "Melaka"
+  },
+  {
+    "id": "ipd-melaka-tengah",
+    "name": "IPD Melaka Tengah",
+    "address": "IPD Melaka Tengah, Jalan BBP2, Taman Batu Berendam Putera, Melaka",
+    "postcode": "75350",
+    "city": "Batu Berendam",
+    "state": "Melaka"
+  },
+  {
+    "id": "ipd-jelebu",
+    "name": "IPD Jelebu",
+    "address": "IPD, Jelebu, Negeri Sembilan",
+    "postcode": "71600",
+    "city": "Kuala Klawang",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "id": "ipd-jempol",
+    "name": "IPD Jempol",
+    "address": "IPD Jempol, Negeri Sembilan",
+    "postcode": "72120",
+    "city": "Bandar Seri jempol",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "id": "ipd-kuala-pilah",
+    "name": "IPD Kuala Pilah",
+    "address": "Ibupejabat Daerah Polis, Kuala Pilah, Jalan Bahau, Negeri Sembilan",
+    "postcode": "72000",
+    "city": "Kuala Pilah",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "id": "ipd-nilai",
+    "name": "IPD Nilai",
+    "address": "IPD Nilai, Negeri Sembilan",
+    "postcode": "71900",
+    "city": "Nilai, Negeri",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "id": "ipd-port-dickson",
+    "name": "IPD Port Dickson",
+    "address": "IPD Port Dickson, IPD, Port Dickson, Negeri Sembilan",
+    "postcode": "71000",
+    "city": "Port Dickson",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "id": "ipd-rembau",
+    "name": "IPD Rembau",
+    "address": "IPD, Rembau, Negeri Sembilan",
+    "postcode": "71300",
+    "city": "Rembau, Negeri",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "id": "ipd-seremban",
+    "name": "IPD Seremban",
+    "address": "IPD Seremban, Negeri Sembilan",
+    "postcode": "70300",
+    "city": "Seremban",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "id": "ipd-tampin",
+    "name": "IPD Tampin",
+    "address": "IPD Tampin, Negeri Sembilan",
+    "postcode": "73000",
+    "city": "Tampin, Negeri",
+    "state": "Negeri Sembilan"
+  },
+  {
+    "id": "ipd-bentong",
+    "name": "IPD Bentong",
+    "address": "IPD Bentong, Jalan Anuar, Pahang",
+    "postcode": "28700",
+    "city": "Bentong",
+    "state": "Pahang"
+  },
+  {
+    "id": "ipd-jerantut",
+    "name": "IPD Jerantut",
+    "address": "IPD Jerantut, Pahang",
+    "postcode": "27000",
+    "city": "Jerantut",
+    "state": "Pahang"
+  },
+  {
+    "id": "ipd-kuala-lipis",
+    "name": "IPD Kuala Lipis",
+    "address": "IPD Lipis, Pahang",
+    "postcode": "27200",
+    "city": "Kuala Lipis",
+    "state": "Pahang"
+  },
+  {
+    "id": "ipd-kuantan",
+    "name": "IPD Kuantan",
+    "address": "IPD Kuantan, Jalan Mahkota, Pahang",
+    "postcode": "25000",
+    "city": "Kuantan",
+    "state": "Pahang"
+  },
+  {
+    "id": "ipd-maran",
+    "name": "IPD Maran",
+    "address": "IPD Maran, Pahang",
+    "postcode": "26500",
+    "city": "Maran",
+    "state": "Pahang"
+  },
+  {
+    "id": "ipd-pekan",
+    "name": "IPD Pekan",
+    "address": "IPD Pekan, Pahang",
+    "postcode": "26600",
+    "city": "Pekan",
+    "state": "Pahang"
+  },
+  {
+    "id": "ipd-raub",
+    "name": "IPD Raub",
+    "address": "IPD Raub, Pahang",
+    "postcode": "27600",
+    "city": "Raub",
+    "state": "Pahang"
+  },
+  {
+    "id": "ipd-rompin",
+    "name": "IPD Rompin",
+    "address": "IPD Rompin, Pahang",
+    "postcode": "26800",
+    "city": "K. Rompin",
+    "state": "Pahang"
+  },
+  {
+    "id": "ipd-temerloh",
+    "name": "IPD Temerloh",
+    "address": ", Pahang",
+    "postcode": "28000",
+    "city": "Temerloh",
+    "state": "Pahang"
+  },
+  {
+    "id": "ipd-batu-gajah",
+    "name": "IPD Batu Gajah",
+    "address": "IPD Batu Gajah, Perak",
+    "postcode": "31000",
+    "city": "Batu Gajah",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-gerik",
+    "name": "IPD Gerik",
+    "address": "IPD Gerik, Jalan Sultan Yusof, Perak",
+    "postcode": "33300",
+    "city": "Gerik",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-hilir-perak",
+    "name": "IPD Hilir Perak",
+    "address": "IPD Hilir Perak",
+    "postcode": "36000",
+    "city": "Teluk Intan",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-ipoh",
+    "name": "IPD Ipoh",
+    "address": "IPD Ipoh, Jalan Panglima Bukit Gantang Wahab, Perak",
+    "postcode": "30000",
+    "city": "Ipoh",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-kampar",
+    "name": "IPD Kampar",
+    "address": "IPD Kampar, Perak",
+    "postcode": "31950",
+    "city": "Kampar",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-kerian",
+    "name": "IPD Kerian",
+    "address": "IPD Kerian, Perak",
+    "postcode": "34300",
+    "city": "Bagan Serai",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-kuala-kangsar",
+    "name": "IPD Kuala Kangsar",
+    "address": "IPD Kuala Kangsar, Jalan Raja Chulan, Perak",
+    "postcode": "33000",
+    "city": "Kuala Kangsar",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-manjung",
+    "name": "IPD Manjung",
+    "address": "IPD Manjung, Perak",
+    "postcode": "32200",
+    "city": "Lumut",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-marin-kg-ache",
+    "name": "IPD Marin Kg Ache",
+    "address": "Pengkalan Polis Marin Kg Acheh, Perak",
+    "postcode": "32000",
+    "city": "Sitiawan",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-muallim",
+    "name": "IPD Muallim",
+    "address": "IPD Muallim, Perak",
+    "postcode": "35800",
+    "city": "Slim River",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-pengkalan-hulu",
+    "name": "IPD Pengkalan Hulu",
+    "address": "IPD Pengkalan Hulu, Perak",
+    "postcode": "33100",
+    "city": "Pengkalan Hulu",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-perak-tengah",
+    "name": "IPD Perak Tengah",
+    "address": "IPD Perak Tengah, Perak",
+    "postcode": "32800",
+    "city": "Parit",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-psp-unit-ipoh",
+    "name": "IPD Psp Unit, Ipoh",
+    "address": "Pasukan Simpanan Persekutuan Unit 5, Perak",
+    "postcode": "30450",
+    "city": "Ipoh",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-selama",
+    "name": "IPD Selama",
+    "address": "IPD Selama, Perak",
+    "postcode": "34100",
+    "city": "Selama",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-sungai-siput",
+    "name": "IPD Sungai Siput",
+    "address": "IPD Sungai Siput, Perak",
+    "postcode": "31100",
+    "city": "Sungai Siput Utara",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-taiping",
+    "name": "IPD Taiping",
+    "address": "IPD Taiping, Jln Taming Sari, Perak",
+    "postcode": "34000",
+    "city": "Taiping",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-tapah",
+    "name": "IPD Tapah",
+    "address": "IPD Tapah, Perak",
+    "postcode": "35000",
+    "city": "Perak.",
+    "state": "Perak"
+  },
+  {
+    "id": "ipd-arau",
+    "name": "IPD Arau",
+    "address": ", Perlis",
+    "postcode": "02600",
+    "city": "Arau",
+    "state": "Perlis"
+  },
+  {
+    "id": "ipd-kangar",
+    "name": "IPD Kangar",
+    "address": ", Perlis",
+    "postcode": "01000",
+    "city": "Kangar",
+    "state": "Perlis"
+  },
+  {
+    "id": "ipd-padang-besar",
+    "name": "IPD Padang Besar",
+    "address": "IPD, Padang Besar, Perlis",
+    "postcode": "02100",
+    "city": "Padang Besar",
+    "state": "Perlis"
+  },
+  {
+    "id": "ipd-barat-daya",
+    "name": "IPD Barat Daya",
+    "address": "IPD Barat Daya, Pulau Pinang",
+    "postcode": "11000",
+    "city": "Balik Pulau",
+    "state": "Pulau Pinang"
+  },
+  {
+    "id": "ipd-seberang-perai-selatan",
+    "name": "IPD Seberang Perai Selatan",
+    "address": "IPD, Seberang Perai Selatan, Pulau Pinang",
+    "postcode": "14200",
+    "city": "Sungai Jawi",
+    "state": "Pulau Pinang"
+  },
+  {
+    "id": "ipd-seberang-perai-tengah",
+    "name": "IPD Seberang Perai Tengah",
+    "address": "IPD, Seberang Perai Tengah, Pulau Pinang",
+    "postcode": "14000",
+    "city": "Bukit Mertajam",
+    "state": "Pulau Pinang"
+  },
+  {
+    "id": "ipd-seberang-perai-utara",
+    "name": "IPD Seberang Perai Utara",
+    "address": "IPD, Seberang Perai Utara, Jln. Bertam 1, Pulau Pinang",
+    "postcode": "13200",
+    "city": "Pulau Pinang.",
+    "state": "Pulau Pinang"
+  },
+  {
+    "id": "ipd-timur-laut",
+    "name": "IPD Timur Laut",
+    "address": "IPD, Timur Laut, Pulau Pinang",
+    "postcode": "10760",
+    "city": "Jln Penang,Timur Laut",
+    "state": "Pulau Pinang"
+  },
+  {
+    "id": "ipd-ampang-jaya",
+    "name": "IPD Ampang Jaya",
+    "address": "IPD Ampang, Taman Dagang, Selangor",
+    "postcode": "68000",
+    "city": "Ampang",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-gombak",
+    "name": "IPD Gombak",
+    "address": "IPD Gombak, Selangor",
+    "postcode": "53100",
+    "city": "Gombak",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-hulu-selangor",
+    "name": "IPD Hulu Selangor",
+    "address": "IPD Hulu Selangor",
+    "postcode": "44000",
+    "city": "Kuala Kubu Bahru",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-kajang",
+    "name": "IPD Kajang",
+    "address": "IPD Kajang, Selangor",
+    "postcode": "43000",
+    "city": "Kajang",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-klang-selatan",
+    "name": "IPD Klang Selatan",
+    "address": "IPD Klang Selatan, Jln Gedung Raja Abdullah, Selangor",
+    "postcode": "41560",
+    "city": "Selangor.",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-kuala-langat",
+    "name": "IPD Kuala Langat",
+    "address": "IPD Kuala Langat, Jalan Sultan Alam Shah, Selangor",
+    "postcode": "42700",
+    "city": "Banting",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-kuala-selangor",
+    "name": "IPD Kuala Selangor",
+    "address": "IPD, Kuala Selangor",
+    "postcode": "45000",
+    "city": "Kuala",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-sabak-bernam",
+    "name": "IPD Sabak Bernam",
+    "address": "IPD, Sabak Bernam, Selangor",
+    "postcode": "45300",
+    "city": "Sungai Besar",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-sepang",
+    "name": "IPD Sepang",
+    "address": "IPD Sepang, Selangor",
+    "postcode": "43900",
+    "city": "Sepang",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-serdang",
+    "name": "IPD Serdang",
+    "address": "IPD Serdang, Jalan Kinrara 6, Bandar Kinrara 6, Selangor",
+    "postcode": "47180",
+    "city": "Puchong",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-sungai-buluh",
+    "name": "IPD Sungai Buluh",
+    "address": "IPD Sg Buluh, Selangor",
+    "postcode": "47000",
+    "city": "Sungai Buloh, Selangor",
+    "state": "Selangor"
+  },
+  {
+    "id": "ipd-besut",
+    "name": "IPD Besut",
+    "address": "IPD Besut, Terengganu",
+    "postcode": "22200",
+    "city": "Besut",
+    "state": "Terengganu"
+  },
+  {
+    "id": "ipd-dungun",
+    "name": "IPD Dungun",
+    "address": "IPD Dungun, Jalan Yahya Ahmad, Terengganu",
+    "postcode": "23000",
+    "city": "Dungun",
+    "state": "Terengganu"
+  },
+  {
+    "id": "ipd-hulu-terrenganu",
+    "name": "IPD Hulu Terrenganu",
+    "address": "IPD Hulu Terengganu",
+    "postcode": "21700",
+    "city": "Kuala Berang",
+    "state": "Terengganu"
+  },
+  {
+    "id": "ipd-kemaman",
+    "name": "IPD Kemaman",
+    "address": "IPD Kemaman, Jalan Air Putih, Terengganu",
+    "postcode": "24000",
+    "city": "Kemaman",
+    "state": "Terengganu"
+  },
+  {
+    "id": "ipd-kuala-terengganu",
+    "name": "IPD Kuala Terengganu",
+    "address": "IPD Kuala Terengganu, Jln Sultan Omar, Terengganu",
+    "postcode": "20918",
+    "city": "Kuala",
+    "state": "Terengganu"
+  },
+  {
+    "id": "ipd-marang",
+    "name": "IPD Marang",
+    "address": "IPD Marang, Terengganu",
+    "postcode": "21600",
+    "city": "Marang",
+    "state": "Terengganu"
+  },
+  {
+    "id": "ipd-setiu",
+    "name": "IPD Setiu",
+    "address": "IPD Setiu, Kg Apek, Terengganu",
+    "postcode": "22100",
+    "city": "Bandar Permaisuri",
+    "state": "Terengganu"
+  },
+  {
+    "id": "ipd-brickfields",
+    "name": "IPD Brickfields",
+    "address": "IPD Brickfields, No. 12, Jalan Travers, Wilayah Persekutuan Kuala Lumpur",
+    "postcode": "50480",
+    "city": "Kuala Lumpur",
+    "state": "Wilayah Persekutuan Kuala Lumpur"
+  },
+  {
+    "id": "ipd-cheras",
+    "name": "IPD Cheras",
+    "address": "IPD Cheras, Lot 36 Jalan Cheras, Wilayah Persekutuan Kuala Lumpur",
+    "postcode": "56100",
+    "city": "Kuala Lumpur",
+    "state": "Wilayah Persekutuan Kuala Lumpur"
+  },
+  {
+    "id": "ipd-dang-wangi",
+    "name": "IPD Dang Wangi",
+    "address": "IPD Dang Wangi, Jalan Dang Wangi, Wilayah Persekutuan Kuala Lumpur",
+    "postcode": "50100",
+    "city": "Kuala Lumpur",
+    "state": "Wilayah Persekutuan Kuala Lumpur"
+  },
+  {
+    "id": "ipd-sentul",
+    "name": "IPD Sentul",
+    "address": "IPD Sentul, Jinjang, Wilayah Persekutuan Kuala Lumpur",
+    "postcode": "51200",
+    "city": "Kuala Lumpur",
+    "state": "Wilayah Persekutuan Kuala Lumpur"
+  },
+  {
+    "id": "ipd-wangsa-maju",
+    "name": "IPD Wangsa Maju",
+    "address": "IPD Wangsa Maju, Jalan Pudu, Wilayah Persekutuan Kuala Lumpur",
+    "postcode": "55100",
+    "city": "Kuala Lumpur",
+    "state": "Wilayah Persekutuan Kuala Lumpur"
+  },
+  {
+    "id": "ipd-putrajaya",
+    "name": "IPD Putrajaya",
+    "address": "IPD Putrajaya, Wilayah Persekutuan Putrajaya",
+    "postcode": "65200",
+    "city": "Putrajaya",
+    "state": "Wilayah Persekutuan Putrajaya"
+  }
+]

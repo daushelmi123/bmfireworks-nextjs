@@ -1,0 +1,38 @@
+.surat-page {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding-top: 70px;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #0a1128 0%, #1b2845 100%);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.page-header h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #00ced1 0%, #ffd700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page-header p {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  opacity: 0.9;
+}
+
+.surat-container {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+@media (max-width: 640px) {
+  .surat-container {
+    padding: 1.25rem 0.9rem 3rem;
+  }
+}

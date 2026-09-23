@@ -199,18 +199,6 @@
   text-overflow: ellipsis;
 }
 
-/* Product Price */
-.product-price-compact {
-  margin: 0.5rem 0;
-}
-
-.product-price-compact .price {
-  font-size: 1rem;
-  font-weight: 800;
-  color: #FF6B35;
-  display: block;
-}
-
 /* Video Indicator Badge */
 .video-indicator {
   position: absolute;

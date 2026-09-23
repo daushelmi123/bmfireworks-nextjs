@@ -1,3 +1,7 @@
+export const metadata = {
+  alternates: { canonical: '/' },
+};
+
 import Navbar from '@/components/Navbar/Navbar';
 import Hero from '@/components/Hero/Hero';
 import ProductCatalog from '@/components/ProductCatalog/ProductCatalog';

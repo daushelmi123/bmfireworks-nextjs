@@ -3,6 +3,7 @@ import Contact from '@/components/Contact/Contact';
 import '../ContactPage.css';
 
 export const metadata = {
+  alternates: { canonical: '/contact' },
   title: 'Contact Us - BMFireworks',
   description: 'Get in touch with BMFireworks X Bearboom team',
 };

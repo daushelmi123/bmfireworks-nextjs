@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { products } from '@/data/products';
 import { categories } from '@/data/categories';
+import { productVideos } from '@/data/productVideos';
 import { useState, useRef, useEffect } from 'react';
 import './ProductCatalog.css';
 
@@ -73,7 +74,7 @@ const ProductCatalog = () => {
 
                 <div className="category-products-row">
                   {categoryProducts.map(product => {
-                    const videoUrl = product.video;
+                    const videoUrl = productVideos[product.id];
                     return (
                       <div key={product.id} className="product-card-compact">
                         {product.soldOut && <span className="sold-out-badge">Sold Out</span>}
@@ -85,27 +86,16 @@ const ProductCatalog = () => {
                           </div>
                         )}
                         <div className="product-image">
-                          {product.image ? (
-                            <img
-                              src={product.image}
-                              alt={`${product.name} ${product.nameChinese}`}
-                              loading="lazy"
-                            />
-                          ) : (
-                            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', opacity: 0.3}}>
-                              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
-                              </svg>
-                            </div>
-                          )}
+                          <img
+                            src={product.image}
+                            alt={`${product.name} ${product.nameChinese}`}
+                            loading="lazy"
+                          />
                         </div>
                         <div className="product-info">
                           <span className="product-id">{product.id}</span>
                           <h4>{product.name}</h4>
                           <span className="chinese-name">{product.nameChinese}</span>
-                          <div className="product-price-compact">
-                            <span className="price">RM {product.price.toFixed(2)}</span>
-                          </div>
                           {videoUrl && (
                             <button
                               className="watch-video-btn"
