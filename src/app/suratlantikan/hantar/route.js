@@ -38,7 +38,7 @@ const ALLOWED_TEMPLATES = new Set([
 ]);
 
 // Perayaan yang dibenarkan
-const ALLOWED_FESTIVALS = new Set(['cny-2027', 'raya-2027', 'deepavali-2027']);
+const ALLOWED_FESTIVALS = new Set(['cny-2027', 'raya-2027', 'deepavali-2026']);
 
 // Rate limit ringkas dalam memori (satu proses next start, cukup untuk guna ini)
 const hits = new Map();

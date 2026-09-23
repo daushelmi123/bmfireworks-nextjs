@@ -38,7 +38,7 @@ const TEMPLATES = [
 const FESTIVALS = [
   { key: 'cny-2027', label: 'CNY', name: 'CHINESE NEW YEAR 2027' },
   { key: 'raya-2027', label: 'Hari Raya Aidilfitri', name: 'HARI RAYA AIDILFITRI 2027' },
-  { key: 'deepavali-2027', label: 'Deepavali', name: 'DEEPAVALI 2027' },
+  { key: 'deepavali-2026', label: 'Deepavali', name: 'DEEPAVALI 2026' },
 ];
 
 const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '601112460415';
