@@ -230,7 +230,10 @@ export default function SuratLantikanForm({ variant = 'full' }) {
       fullName: f.fullName.trim(),
       icNumber: f.icNumber.replace(/\D/g, ''), // backend terima 12 digit tanpa dash
       occupation: f.occupation.trim(),
-      phone: normalisePhone(f.phone),
+      // Hantar digit tempatan sahaja (cth 0137340415) — servis PDF yang akan
+      // tambah kod negara. Kalau hantar yg dah ada "60", servis tambah lagi
+      // jadi "6060137340415" (bug webhook/notifikasi).
+      phone: f.phone.replace(/\D/g, ''),
       countryCode: f.countryCode,
       addressLine1: f.addressLine1.trim(),
       addressLine23: joinLines(f.addressLine2, f.addressLine3),
